@@ -1,0 +1,43 @@
+body, html {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+  
+  .toolbar {
+    background-color: #f1f1f1;
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  #sheetContainer {
+    flex-grow: 1;
+    padding: 20px;
+    overflow: auto;
+    border-top: 1px solid #ccc;
+  }
+  
+  .sheet-tabs {
+    background-color: #f1f1f1;
+    padding: 10px;
+    border-top: 1px solid #ccc;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+  }
+  
+  .sheet-tabs button {
+    padding: 5px 10px;
+    border: none;
+    background-color: #ddd;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .sheet-tabs button:hover, .sheet-tabs button.active {
+    background-color: #aaa;
+  }
+  

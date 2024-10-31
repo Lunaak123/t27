@@ -1,0 +1,19 @@
+body, html {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    text-align: center;
+  }
+  
+  input, button {
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 16px;
+  }
+  
